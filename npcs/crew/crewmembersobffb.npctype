@@ -24,11 +24,74 @@
         ]
       }
     },
-
 	  "dialog" : {
       "crewmember" : {
-		    "fieldBenefit" : "/dialog/skills.config:blueStim",
-        "combatBenefit" : "/dialog/skills.config:blueStim"
+				"fieldBenefit" : {
+	        "default" : {
+			      "default" : [
+				      "Let me give you a boost real quick!",
+				      "Ready to fly?",
+				      "You are going to feel a lot lighter with this.",
+				      "Incoming ionic polymeric gel!"
+			      ]
+		      },
+		      "floran" : {
+			      "default" : [
+				      "Floran sendsss you high now!",
+				      "Floran hass blue sshot for you!",
+				      "Floran helpsss you reach higher!"
+			      ]
+		      },
+		      "glitch" : {
+			      "default" : [
+				      "Eager. I will help you reach higher!",
+				      "Excited. This will enhance your upwards momentum!",
+				      "Intrigued. Would you like to jump higher?",
+				      "Helpful. Administering Ionic polymeric gel!"
+			      ]
+		      },
+		      "novakid" : {
+			      "default" : [
+				      "Reach for the sky, partner!",
+				      "Yer lookin' like you could use some... blue gel...",
+				      "Looks like yer going for the skies!",
+				      "Hold on partner, this will get you high!"
+			      ]
+		      }
+        },
+				"combatBenefit" : {
+	        "default" : {
+			      "default" : [
+				      "Let me give you a boost real quick!",
+				      "Ready to fly?",
+				      "You are going to feel a lot lighter with this.",
+				      "Incoming ionic polymeric gel!"
+			      ]
+		      },
+		      "floran" : {
+			      "default" : [
+				      "Floran sendsss you high now!",
+				      "Floran hass blue sshot for you!",
+				      "Floran helpsss you reach higher!"
+			      ]
+		      },
+		      "glitch" : {
+			      "default" : [
+				      "Eager. I will help you reach higher!",
+				      "Excited. This will enhance your upwards momentum!",
+				      "Intrigued. Would you like to jump higher?",
+				      "Helpful. Administering Ionic polymeric gel!"
+			      ]
+		      },
+		      "novakid" : {
+			      "default" : [
+				      "Reach for the sky, partner!",
+				      "Yer lookin' like you could use some... blue gel...",
+				      "Looks like yer going for the skies!",
+				      "Hold on partner, this will get you high!"
+			      ]
+		      }
+        }
       }
     }
   }

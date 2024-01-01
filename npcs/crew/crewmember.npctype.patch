@@ -5,6 +5,18 @@
 		"value" : "random"
 	},
 	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/cantreach/novakid", 
+		"value" : {
+      "default": [
+        "Woah! You are blazing! Wait!",
+        "You run like the wind partner. Hold up!",
+        "How in the blazes did you get there so fast?",
+        "I'm proud of you, but let me catch up partner."
+      ]
+    }
+	},
+	{
 		"op" : "add", 
 		"path" : "/scriptConfig/dialog/crewmember/holdPosition", 
 		"value" : "/dialog/commands.config:holdPosition"

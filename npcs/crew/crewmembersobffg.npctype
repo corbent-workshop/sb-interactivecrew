@@ -27,8 +27,72 @@
 
 	  "dialog" : {
       "crewmember" : {
-		    "fieldBenefit" : "/dialog/skills.config:greenStim",
-        "combatBenefit" : "/dialog/skills.config:greenStim"
+				"fieldBenefit" : {
+		      "default" : {
+			      "default" : [
+				      "Time to run like hell!",
+				      "On your marks, get set, go!",
+				      "You are going to be a lot faster with this.",
+				      "Incoming metabolic enhancer!"
+			      ]
+		      },
+		      "floran" : {
+			      "default" : [
+				      "Floran sendsss you really far now!",
+				      "Floran hass green sshot for you!",
+				      "Floran helpsss you run!"
+			      ]
+		      },
+		      "glitch" : {
+			      "default" : [
+				      "Eager. I will help you get very far!",
+				      "Excited. This will enhance your forward momentum!",
+				      "Intrigued. Would you like to run faster?",
+				      "Helpful. Administering metabolic enhancer!"
+			      ]
+		      },
+		      "novakid" : {
+			      "default" : [
+				      "Run like the wind, partner!",
+				      "Yer lookin' like you could use some... green stuff...",
+				      "Time for a race!",
+				      "No need for horses!"
+			      ]
+		      }
+        },
+				"combatBenefit" : {
+		      "default" : {
+			      "default" : [
+				      "Time to run like hell!",
+				      "On your marks, get set, go!",
+				      "You are going to be a lot faster with this.",
+				      "Incoming metabolic enhancer!"
+			      ]
+		      },
+		      "floran" : {
+			      "default" : [
+				      "Floran sendsss you really far now!",
+				      "Floran hass green sshot for you!",
+				      "Floran helpsss you run!"
+			      ]
+		      },
+		      "glitch" : {
+			      "default" : [
+				      "Eager. I will help you get very far!",
+				      "Excited. This will enhance your forward momentum!",
+				      "Intrigued. Would you like to run faster?",
+				      "Helpful. Administering metabolic enhancer!"
+			      ]
+		      },
+		      "novakid" : {
+			      "default" : [
+				      "Run like the wind, partner!",
+				      "Yer lookin' like you could use some... green stuff...",
+				      "Time for a race!",
+				      "No need for horses!"
+			      ]
+		      }
+        }
       }
     }
   }

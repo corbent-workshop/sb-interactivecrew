@@ -20,7 +20,7 @@
 			},
 			"novakid" : {
 				"default" : [
-					"I am a certified physician... Just kidding but can fix you up all the same, partner!"
+					"I am a certified physician... Just kidding, but can fix you up all the same, partner!"
 				]
 			}
 		}
@@ -36,7 +36,7 @@
 			},
 			"floran" : {
 				"default" : [
-					"Floran will help you mend woundss while hunting."
+				  "Floran will help you mend woundss while hunting."
 				]
 			},
 			"glitch" : {
@@ -46,19 +46,173 @@
 			},
 			"novakid" : {
 				"default" : [
-					"I am a certified physician... Just kidding but can fix you up all the same, partner!"
+					"I am a certified physician... Just kidding, but can fix you up all the same, partner!"
 				]
 			}
-		}
+    }
 	},
 	{
 		"op" : "add",
-		"path" : "/scriptConfig/dialog/crewmember/fieldBenefit", 
-		"value" : "/dialog/skills.config:medicHeal"
-	},
+		"path" : "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/-", 
+		"value" : "You look like you could use some aid!"
+  },
 	{
 		"op" : "add",
-		"path" : "/scriptConfig/dialog/crewmember/combatBenefit", 
-		"value" : "/dialog/skills.config:medicHeal"
-	}
+		"path" : "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/-", 
+		"value" : "Looks like you could use my assistance!"
+  },
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/-", 
+		"value" : "I can treat you! Come to me, quickly!"
+  },
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/-", 
+		"value" : "Stand still and I'll treat you!"
+  },
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/-", 
+		"value" : "Hold still..."
+  },
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/-", 
+		"value" : "Don't worry I'll take care of you."
+  },
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/-", 
+		"value" : "Providing medical care!"
+  },
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/fieldBenefit/floran/default/-", 
+		"value" : "Floran can mend your woundss!"
+  },
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/fieldBenefit/floran/default/-", 
+		"value" : "Tough hunt, let Floran treat your woundss."
+  },
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/fieldBenefit/floran/default/-", 
+		"value" : "Floran hasss you covered."
+  },
+  {
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/fieldBenefit/glitch/default/-", 
+		"value" : "Optimistic. This will get you back into the fight."
+  },
+  {
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/fieldBenefit/glitch/default/-", 
+		"value" : "Calm. This shall restore your condition."
+  },
+  {
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/fieldBenefit/glitch/default/-", 
+		"value" : "Intrigued. Administering aid. Will you be ok?"
+  },
+  {
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/fieldBenefit/glitch/default/-", 
+		"value" : "Helpful. Allow me to treat your wounds."
+  },
+  {
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/fieldBenefit/novakid", 
+		"value" : {
+      "default": [
+			  "Here, I'll stitch you back together, partner.",
+			  "Yer lookin' a little roughed up. Let me help.",
+			  "Here partner, this should fix you up.",
+			  "Hold on partner, you need medical attention."
+      ]
+    }
+  },
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/combatBenefit/default/default/-", 
+		"value" : "You look like you could use some aid!"
+  },
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/combatBenefit/default/default/-", 
+		"value" : "Looks like you could use my assistance!"
+  },
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/combatBenefit/default/default/-", 
+		"value" : "I can treat you! Come to me, quickly!"
+  },
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/combatBenefit/default/default/-", 
+		"value" : "Stand still and I'll treat you!"
+  },
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/combatBenefit/default/default/-", 
+		"value" : "Hold still..."
+  },
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/combatBenefit/default/default/-", 
+		"value" : "Don't worry I'll take care of you."
+  },
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/combatBenefit/default/default/-", 
+		"value" : "Providing medical care!"
+  },
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/-", 
+		"value" : "Floran can mend your woundss!"
+  },
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/-", 
+		"value" : "Tough hunt, let Floran treat your woundss."
+  },
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/-", 
+		"value" : "Floran hasss you covered."
+  },
+  {
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/-", 
+		"value" : "Optimistic. This will get you back into the fight."
+  },
+  {
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/-", 
+		"value" : "Calm. This shall restore your condition."
+  },
+  {
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/-", 
+		"value" : "Intrigued. Administering aid. Will you be ok?"
+  },
+  {
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/-", 
+		"value" : "Helpful. Allow me to treat your wounds."
+  },
+  {
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/combatBenefit/novakid", 
+		"value" : {
+      "default": [
+			  "Here, I'll stitch you back together, partner.",
+			  "Yer lookin' a little roughed up. Let me help.",
+			  "Here partner, this should fix you up.",
+			  "Hold on partner, you need medical attention."
+      ]
+    }
+  }
 ]

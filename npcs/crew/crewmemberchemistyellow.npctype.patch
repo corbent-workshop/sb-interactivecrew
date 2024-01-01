@@ -53,8 +53,72 @@
 						]
 					}
 				},
-				"fieldBenefit" : "/dialog/skills.config:yellowStim",
-				"combatBenefit" : "/dialog/skills.config:yellowStim"
+				"fieldBenefit" : {
+		      "default" : {
+			      "default" : [
+				      "Have this disposable light!",
+				      "Let me light the way.",
+				      "Ready for the caves!",
+				      "Now's your time to shine!"
+			      ]
+		      },
+		      "floran" : {
+			      "default" : [
+				      "Floran makesss you glow!",
+				      "Floran hass light for you!",
+				      "Floran helpsss you ssee!"
+			      ]
+		      },
+		      "glitch" : {
+			      "default" : [
+				      "Eager. I will help you see in the dark!",
+				      "Excited. This will enhance your vision!",
+				      "Intrigued. Would you like some light?",
+				      "Helpful. Deploying light source!"
+			      ]
+		      },
+		      "novakid" : {
+			      "default" : [
+				      "Into the darkness, partner!",
+				      "Yer lookin' like you could use some light.",
+				      "Looks like yer shining!",
+				      "Hold on partner, take this light!"
+			      ]
+	        }
+        },
+				"combatBenefit" : {
+		      "default" : {
+			      "default" : [
+				      "Have this disposable light!",
+				      "Let me light the way.",
+				      "Ready for the caves!",
+				      "Now's your time to shine!"
+			      ]
+		      },
+		      "floran" : {
+			      "default" : [
+				      "Floran makesss you glow!",
+				      "Floran hass light for you!",
+				      "Floran helpsss you ssee!"
+			      ]
+		      },
+		      "glitch" : {
+			      "default" : [
+				      "Eager. I will help you see in the dark!",
+				      "Excited. This will enhance your vision!",
+				      "Intrigued. Would you like some light?",
+				      "Helpful. Deploying light source!"
+			      ]
+		      },
+		      "novakid" : {
+			      "default" : [
+				      "Into the darkness, partner!",
+				      "Yer lookin' like you could use some light.",
+				      "Looks like yer shining!",
+				      "Hold on partner, take this light!"
+			      ]
+	        }
+        }
 			}
 		}
 	}

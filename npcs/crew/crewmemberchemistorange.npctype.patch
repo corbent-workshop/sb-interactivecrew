@@ -48,8 +48,72 @@
 						]
 					}
 				},
-				"fieldBenefit" : "/dialog/skills.config:orangeStim",
-				"combatBenefit" : "/dialog/skills.config:orangeStim"
+				"fieldBenefit" : {
+		      "default" : {
+			      "default" : [
+				      "Time to get serious!",
+				      "Ready to fight?",
+				      "You are going to feel a lot stronger with this.",
+				      "Incoming adrenal stimulant!"
+			      ]
+		      },
+		      "floran" : {
+			      "default" : [
+				      "Floran iss ready for the hunt!",
+				      "Floran hass orange sshot for you!",
+				      "Floran helpsss you fight!"
+			      ]
+		      },
+		      "glitch" : {
+			      "default" : [
+				      "Eager. I will help your combat peformance!",
+				      "Excited. This will enhance your fighting capabilities!",
+				      "Intrigued. Would you like to fight better?",
+				      "Helpful. Administering adrenal stimulant!"
+			      ]
+		      },
+		      "novakid" : {
+			      "default" : [
+				      "Time to kick ass, partner!",
+				      "Yer lookin' like you could use some... stimulation...",
+				      "You'll strike fear in those rascals!",
+				      "Time to get shootin', partner!"
+			      ]
+		      }
+        },
+				"combatBenefit" : {
+		      "default" : {
+			      "default" : [
+				      "Time to get serious!",
+				      "Ready to fight?",
+				      "You are going to feel a lot stronger with this.",
+				      "Incoming adrenal stimulant!"
+			      ]
+		      },
+		      "floran" : {
+			      "default" : [
+				      "Floran iss ready for the hunt!",
+				      "Floran hass orange sshot for you!",
+				      "Floran helpsss you fight!"
+			      ]
+		      },
+		      "glitch" : {
+			      "default" : [
+				      "Eager. I will help your combat peformance!",
+				      "Excited. This will enhance your fighting capabilities!",
+				      "Intrigued. Would you like to fight better?",
+				      "Helpful. Administering adrenal stimulant!"
+			      ]
+		      },
+		      "novakid" : {
+			      "default" : [
+				      "Time to kick ass, partner!",
+				      "Yer lookin' like you could use some... stimulation...",
+				      "You'll strike fear in those rascals!",
+				      "Time to get shootin', partner!"
+			      ]
+		      }
+        }
 			}
 		}
 	}

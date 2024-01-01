@@ -5,24 +5,192 @@
 		"value" : "random"
 	},
 	{
-		"op" : "replace",
-		"path" : "/scriptConfig/dialog/crewmember/respawned", 
-		"value" : "/dialog/common.config:respawned"
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/respawned/floran", 
+		"value" : {
+      "default": [
+			  "Floran feelsss funny.",
+			  "Floran not a fan of dying.",
+			  "Ressspawning tickles.",
+			  "Floran will fight better next time..."
+      ]
+    }
 	},
 	{
-		"op" : "replace", 
-		"path" : "/scriptConfig/dialog/crewmember/follow", 
-		"value" : "/dialog/common.config:follow"
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/respawned/glitch", 
+		"value" : {
+      "default": [
+			  "Dazed. Was I dead?",
+			  "Relieved. I'm back!",
+			  "Concerned. I hope I respawned properly. Do I look alright?",
+			  "Confused. Was I dead for a little while?",
+			  "Tired. Respawning is exhausting."
+      ]
+    }
 	},
 	{
-		"op" : "replace", 
-		"path" : "/scriptConfig/dialog/crewmember/unfollow", 
-		"value" : "/dialog/common.config:unfollow"
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/respawned/penguin", 
+		"value" : {
+      "default": [
+			  "Can't believe I died when I was right in the middle of something.",
+			  "No self-respecting penguin would stay dead for long.",
+			  "Heh... Dying tickles.",
+			  "Respawning makes my head feel fuzzy. I like it."
+      ]
+    }
 	},
 	{
-		"op" : "replace", 
-		"path" : "/scriptConfig/dialog/crewmember/cantreach", 
-		"value" : "/dialog/common.config:cantreach"
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/respawned/novakid", 
+		"value" : {
+      "default": [
+			  "I saw a bright light... No, wait, that was just me.",
+			  "Was I dead? Well I guess I ain't now!",
+			  "Respawnin' sure does take the hurry from my heels.",
+			  "Comin' back to bein' gives me the shakes..."
+      ]
+    }
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/follow/floran", 
+		"value" : {
+      "default": [
+				"Yesss, Captain!",
+				"Let'ss go!",
+				"Captain wantss Floran to follow?",
+				"Floran ready to go again!",
+				"Are we going ssomewhere?"
+      ]
+    }
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/follow/glitch", 
+		"value" : {
+      "default": [
+				"Humble. I shall follow, captain.",
+				"Alert. Shall we go, captain?",
+				"Solemn. Is it time to move, captain?",
+				"Inquisitive. Are we going somewhere?"
+      ]
+    }
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/follow/penguin", 
+		"value" : {
+      "default": [
+				"Okay, I'm ready, waddle on.",
+				"Let's go then.",
+				"You're the boss!",
+				"I'm coming."
+      ]
+    }
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/follow/novakid", 
+		"value" : {
+      "default": [
+				"No time to dally - let's ride!",
+				"Time to up stakes and go!",
+				"Time to ride, partner?",
+				"Yee-haw, let's go!"
+      ]
+    }
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/unfollow/floran", 
+		"value" : {
+      "default": [
+				"Floran should sstay here?",
+				"Floran will sstay here.",
+				"Floran will sstay, then..."
+      ]
+    }
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/unfollow/glitch", 
+		"value" : {
+      "default": [
+				"Obliging. I will remain here for now, then.",
+				"Patient. I can wait here, captain.",
+				"Amicable.  I will remain here if you want me to, captain.",
+				"Agreeable. I can stay here if you prefer, captain."
+      ]
+    }
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/unfollow/penguin", 
+		"value" : {
+      "default": [
+				"I'll just be here... Waiting...",
+				"Alright, boss, I'll wait here.",
+				"I can wait here.",
+				"I'll just wait here, rest my flippers."
+      ]
+    }
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/unfollow/novakid", 
+		"value" : {
+      "default": [
+				"Alright, partner, I'll jus' be right here.",
+				"I can hold up here, if you'd like.",
+				"I'll jus' stay here for a moment."
+      ]
+    }
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/cantreach/floran", 
+		"value" : {
+      "default": [
+				"Floran too far away!",
+				"Floran iss left behind!",
+				"Floran not close enough to you!"
+      ]
+    }
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/cantreach/glitch", 
+		"value" : {
+      "default": [
+				"Frustrated. I can't reach you!",
+				"Concerned. Wait for me!"
+      ]
+    }
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/cantreach/penguin", 
+		"value" : {
+      "default": [
+				"Hey, biggun! Let me catch up!",
+				"Don't get too far off!",
+				"Wait up, big guy!"
+      ]
+    }
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/cantreach/novakid", 
+		"value" : {
+      "default": [
+        "Woah! You are blazing! Wait!",
+        "You run like the wind partner. Hold up!",
+        "How in the blazes did you get there so fast?",
+        "I'm proud of you, but let me catch up partner."
+      ]
+    }
 	},
 	{
 		"op" : "add", 
