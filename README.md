@@ -16,6 +16,8 @@ The goal is to improve the crew experience by making them more interactive, feel
 
 * Didn't test in multiplayer. Should work fine, but in case of any weirdness, please report.
 
+* **WARNING**: You cannot safely uninstall this mod if one of your crew members is a "Partner"! Mods like CrewCustomization+ may break and you will not be able to use SAIL to dismiss crew! If you wish to have another crew member with the appearance of your "Partner" crew member, back it up first using CrewCustomization+, then dismiss the crew member _before_ uninstalling this mod. The "Partner" crew role is added by DateBound, read below for more details.
+
 ## Features
 * The commander's hand: An item that allows you to tell your crewmates to do stuff depending on what you click.
 * A GUI to organize your followers.
